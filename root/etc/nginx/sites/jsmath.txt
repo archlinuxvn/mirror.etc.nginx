@@ -1,0 +1,5 @@
+location /jsMath/ {
+  alias /home/www/public/sites/jsmath/;
+  autoindex on;
+  expires 30m;
+}

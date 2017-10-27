@@ -1,0 +1,4 @@
+allow  212.85.158.3/32;   # tuxfamily.org
+allow  127.0.0.1/32;      # localhost
+# allow  103.249.23.3/32;   # l00s5r
+deny all;

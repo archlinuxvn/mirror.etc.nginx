@@ -1,0 +1,6 @@
+# https://support.cloudflare.com/hc/en-us/articles/115000219871-Why-does-Flexible-SSL-cause-a-redirect-loop-
+# if ($http_cf_visitor ~ '{"scheme":"http"}') {
+
+#if ($http_x_forwarded_proto = "http") {
+#  return 301 https://$host$request_uri;
+#}
